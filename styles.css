@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img {
+    height: 300px;
+}
+
+header{
+    background-color: aqua;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+
+
+}
+
+nav {
+  background-color: rgb(165, 44, 44);
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+    position:fixed;
+    bottom: 0px;
+}
+
+.middle{
+    text-align: center;
+}
+
+
+.gradient-background{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #4CAF50, #2196F3, #f44336);    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 20px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+
+nav a:hover{
+
+  color:paleturquoise;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+
+footer{
+    background-color: cornflowerblue;
+    color:  rgb(165, 44, 44);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    font-size: 14px; 
+    margin-top: 40px;
+    border-top: 2px solid #7c8f77;
+    width: 100%;
+    bottom: 0;               
+
+
+}
